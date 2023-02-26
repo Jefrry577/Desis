@@ -28,9 +28,6 @@ if (isset($_SESSION['acept'])) {
 </head>
 <body>
 	<h2>Formulario de votación:</h2>
-	<?php
-	echo phpversion();
-	?>
 	<form autocomplete="off" onsubmit="return validarFormulario()" action="Guardar.php" method="post">
 		<label>Nombre y Apellido:</label>
 		<input type="text" class="form-control"	autofocus maxlength="30" name="Nombre"	required>
