@@ -66,7 +66,7 @@ if (isset($_SESSION['acept'])) {
 		<br>
 		<label>Como se entero de Nosotros:</label>
 		<input type="checkbox" id="opcion1" name="opciones[]" value="Web">Web</input>
-		<input type="checkbox" id="opcion2" name="opciones[]" value="Web">TV</input>
+		<input type="checkbox" id="opcion2" name="opciones[]" value="TV">TV</input>
 		<input type="checkbox" id="opcion3" name="opciones[]" value="Redes Sociales">Redes Sociales</input>
 		<input type="checkbox" id="opcion4" name="opciones[]" value="Amigo">Amigo</input>
 		<br><br>
