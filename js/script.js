@@ -40,18 +40,3 @@ rutInput.addEventListener('input', (event) => {
 
   event.target.value = rut; 
 });
-// Validacion de los checkbox
-function validarFormulario() {
-  var checkboxes = document.querySelectorAll('input[type=checkbox]');
-  var numSeleccionados = 0;
-  for (var i = 0; i < checkboxes.length; i++) {
-    if (checkboxes[i].checked) {
-      numSeleccionados++;
-    }
-  }
-  if (numSeleccionados < 2) {
-    alert('Debe seleccionar al menos 2 opciones.');
-    return false;
-  }
-  return true;
-}
